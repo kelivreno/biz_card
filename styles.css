@@ -8,7 +8,6 @@ body {
 
 .card {
     padding: 20px;
-    border: 1px dotted blue;
     display: flex;
 }
 
@@ -17,4 +16,9 @@ body {
     margin-right: auto;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.dotted-blue-border {
+    border: 1px dotted blue;
+    
 }
