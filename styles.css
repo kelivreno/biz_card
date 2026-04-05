@@ -1,6 +1,5 @@
 body {
     margin: 20px;
-    text-align: center;
 }
 
 .img-profile {
@@ -14,6 +13,7 @@ body {
     padding: 20px;
     display: flex;
     justify-content: space-around;
+    text-align: center;
 }
 
 .bio{
