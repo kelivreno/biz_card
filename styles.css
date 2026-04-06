@@ -3,20 +3,29 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+.container img{
+    width: 150px;
+    height:150px;
+    object-fit: hidden;
+}
+
 .img-profile {
     width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
 .card {
     width: 400px;
     margin: 0 auto 0 auto;
     padding: 20px;
-    display: flex;
+    display: column;
     justify-content: space-around;
     text-align: center;
     color: #283618;
     background-color: #FEFAE0;
     border-bottom: 6px solid #283618;
+    overflow: hidden;
 
 }
 
